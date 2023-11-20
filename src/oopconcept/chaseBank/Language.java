@@ -3,9 +3,14 @@ package oopconcept.chaseBank;
 public class Language {
 
     /*
-        language id
-        language name
+        language id => int
+        language name => string
      */
+
+    int languageId;
+    String languageName;
+
+}
 
     /*
         language id - 1

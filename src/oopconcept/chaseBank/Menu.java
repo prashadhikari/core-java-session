@@ -3,16 +3,26 @@ package oopconcept.chaseBank;
 public class Menu {
 
     /*
-        menu id
-        name
-        slug
-        is external
-        external url
-        is Active
-        parent id
-        is leaf
-        language id
+        menu id => int
+        name => String
+        slug => String
+        is external => boolean
+        external url => String
+        is Active => boolean
+        parent id => int
+        is leaf => boolean
+        language id => int
      */
+
+    int menuID;
+    String name;
+    String slug;
+    boolean isExternal;
+    String externalUrl;
+    boolean isActive;
+    int parentId;
+    boolean isLeaf;
+    int languageId;
 }
 
 /*
