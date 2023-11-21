@@ -7,9 +7,28 @@ public class Language {
         language name => string
      */
 
-    int languageId;
-    String languageName;
+    private int languageId;
+    private String languageName;
 
+    //this = english
+    public void setLanguageId(int languageId){
+        this.languageId = languageId;
+    }
+
+
+    //this = english/nepali/french
+    public int getLanguageId(){
+        return this.languageId;
+    }
+
+    public String getLanguageName() {
+        return this.languageName;// dont really need to write this when returning
+                                // just for visual preference now to understand
+    }
+
+    public void setLanguageName(String languageName) {
+        this.languageName = languageName;
+    }
 }
 
     /*
@@ -26,4 +45,4 @@ public class Language {
         language id - 3
         language name - Spanish
      */
-}
+

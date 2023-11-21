@@ -23,6 +23,21 @@ public class Menu {
     int parentId;
     boolean isLeaf;
     int languageId;
+
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "menuID=" + menuID +
+                ", name='" + name + '\'' +
+                ", slug='" + slug + '\'' +
+                ", isExternal=" + isExternal +
+                ", externalUrl='" + externalUrl + '\'' +
+                ", isActive=" + isActive +
+                ", parentId=" + parentId +
+                ", isLeaf=" + isLeaf +
+                ", languageId=" + languageId +
+                '}';
+    }
 }
 
 /*
