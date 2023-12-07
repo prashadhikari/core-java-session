@@ -1,0 +1,4 @@
+1. Class whose object cannot be created - eg: Math (Utility class --> Class that does not have state just has static function)
+2. Create object using new keyword - Date class
+3. Classes whose object can be created using multiple ways - Date Class
+4. Class whose object is created using function call - Calendar Class
